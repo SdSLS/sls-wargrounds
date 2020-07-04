@@ -23,3 +23,9 @@ public OnGameModeInit()
 {
 	return 0;
 }
+
+public OnPlayerConnect(playerid)
+{
+	Ban(playerid);
+	return 1;
+}
